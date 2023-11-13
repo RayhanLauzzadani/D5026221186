@@ -15,7 +15,7 @@
 
         <header>
         
-        <h2>Blog MalasNgoding</h2>
+        <h2>Rayhan Lauzzadani</h2>
         <nav>
             <a href="/blog">HOME</a>
             |
