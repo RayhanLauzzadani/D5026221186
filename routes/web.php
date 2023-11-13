@@ -38,5 +38,15 @@ Route::get('week8', function()
 return view('week8');
 });
 
+
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
 Route::get('show', 'App\Http\Controllers\DosenController@showBlog');
+
+Route::get('pegawai/{nama}', 'App\Http\Controllers\DosenController@shownama');
+Route::get('/formulir', 'App\Http\Controllers\DosenController@formulir');
+Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
+
+// route blog
+Route::get('/blog', 'App\Http\Controllers\DosenController@home');
+Route::get('/blog/tentang', 'App\Http\Controllers\DosenController@tentang');
+Route::get('/blog/kontak', 'App\Http\Controllers\DosenController@kontak');

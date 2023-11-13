@@ -3,7 +3,7 @@
    <link rel="icon" href="hurufr.png" />
    <title>Billiards Pool</title>
    <!-- css custom -->
-   <link rel="stylesheet" type="" href="style.css">
+   <link rel="stylesheet" type="" href="{{ asset('css/style.css') }}">
    <link rel="stylesheet" type="" href="responsive.css">
    <!-- bootstrap css -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
