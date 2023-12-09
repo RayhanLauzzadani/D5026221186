@@ -67,3 +67,13 @@ Route::post('/nilaikuliah/store', 'App\Http\Controllers\NilaiKuliahController@st
 //route cari pegawai
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
+//route CRUD untuk Teh
+Route::get('/teh', 'App\Http\Controllers\TehController@index');
+Route::get('/teh/tambah','App\Http\Controllers\TehController@tambah');
+Route::post('/teh/store', 'App\Http\Controllers\TehController@store');
+Route::get('/teh/edit/{id}','App\Http\Controllers\TehController@edit');
+Route::post('/teh/update','App\Http\Controllers\TehController@update');
+Route::get('/teh/hapus/{id}','App\Http\Controllers\TehController@hapus');
+Route::get('/teh/cari','App\Http\Controllers\TehController@cari');
+Route::get('/teh/view/{id}','App\Http\Controllers\TehController@view');
+
