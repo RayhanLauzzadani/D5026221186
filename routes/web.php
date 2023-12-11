@@ -77,3 +77,7 @@ Route::get('/teh/hapus/{id}','App\Http\Controllers\TehController@hapus');
 Route::get('/teh/cari','App\Http\Controllers\TehController@cari');
 Route::get('/teh/view/{id}','App\Http\Controllers\TehController@view');
 
+//route CRUD untuk Kategori soal UAS kode CC PWEB
+Route::get('/combo', 'App\Http\Controllers\KategoriController@index');
+Route::post('/hasilcombo', 'App\Http\Controllers\KategoriController@pilih');
+
